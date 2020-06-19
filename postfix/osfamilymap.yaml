@@ -12,7 +12,7 @@ Debian:
   daemon_directory: /usr/lib/postfix/sbin
 
 FreeBSD:
-  policyd_spf_pkg: py27-postfix-policyd-spf-python
+  policyd_spf_pkg: py37-postfix-policyd-spf-python
   aliases_file: /etc/mail/aliases
   xbin_prefix: /usr/local
   config_path: /usr/local/etc/postfix
